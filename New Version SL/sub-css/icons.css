@@ -1,0 +1,120 @@
+/* css code for icons */
+
+.comprehension-icon {
+    height: auto;
+    width: 35px;
+    margin: 0 20px 0 15px ;
+}
+
+.explaining-icon {
+    height: auto;
+    width: 35px;
+    margin: 0 18px 0 22px ;
+}
+
+.analyzing-icon {
+    height: auto;
+    width: 28px;
+    margin: 0 23px 0 22px;
+}
+
+.lyrics-icon {
+    height: auto;
+    width: 30px;
+    margin: 0 20px 0 20px;
+}
+
+.song-suggestion-icon {
+    height: auto;
+    width: 33px;
+    margin: 0 17px 0 18px;
+}
+
+.music-quiz-icon {
+    height: auto;
+    width: 32px;
+    margin: 0 17px 0 18px;
+}
+
+.story-icon {
+    height: auto;
+    width: 32px;
+    margin: 0 15px 0 16px;
+}
+
+.character-icon {
+    height: auto;
+    width: 32px;
+    margin: 0 15px 0 19px;
+}
+
+.mythology-icon {
+    height: auto;
+    width: 34px;
+    margin: 0 5px 0 7px;
+}
+
+.travell-plans-icon {
+    height: auto;
+    width: 32px;
+    margin: 0 16px 0 15px;
+}
+
+.travell-guide-icon {
+    height: auto;
+    width: 35px;
+    margin: 0 14px;
+}
+
+.travell-story-icon {
+    height: auto;
+    width: 30px;
+    margin: 0 10px 0 17px;
+}
+
+.gpt-3-logo {
+    height: auto;
+    width: 54px;
+    border-radius: 15px;
+    border: 2.5px solid white;
+    position: absolute;
+    margin: -8px 0px 0 213px;
+}
+
+    .gpt-arrow {
+        margin: 0 0 0 16px;
+    }
+        .ultimate-p {
+            text-decoration: underline;
+        }
+
+.mid-journey-logo {
+    position: absolute;
+    height: auto;
+    width: 54px;
+    margin: 12px 0 0 208px;
+    border-radius: 15px;
+    border: 2.5px solid #131316;
+}
+
+    .mid-journey-arrow {
+        margin: 0 0 0 16px;
+    }
+
+.quotes-icon {
+    height: auto;
+    width: 30px;
+    margin: 0 18px 0 17px;
+}
+
+.self-improvement-icon {
+    height: auto;
+    width: 33px;
+    margin: 0 10px 0 10px;
+}
+
+.hobbys-icon {
+    height: auto;
+    width: 31px;
+    margin: 0 18px 0 17px;
+}

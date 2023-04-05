@@ -1,0 +1,106 @@
+/* css file for only niche html file*/
+
+:root {
+  --focus-bg: #EC5D2A;
+}
+
+
+#niche {
+  background-color: #F0F1F9;
+}
+
+/*
+* {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+*/
+
+.sub-categories:nth-child(odd) {
+  /* background-color: var(--focus-bg); */
+  border: 3px solid #3F458D;
+  color: #131316;
+}
+
+.sub-categories hr {
+  color: white;
+}
+
+/*
+.writing-img {
+    border-radius: 20px;
+    border: 2px solid blue;
+  }
+*/
+/*
+.all-categorie-container:hover > :not(:hover) {
+  opacity: 0.5;
+} 
+*/
+
+.section-container > p {
+  color: #131316;
+  border-radius: 14px;
+  padding: 10px 15px;
+  background-color: white;
+  display: flex;
+}
+
+.lyrics-img {
+  /* background-image: url(../../img/writing-lyrics.jpeg); */
+  background-size: 100%;
+  background: linear-gradient(to right, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0)),
+  url(../../img/writing-lyrics.jpeg);
+}
+
+.song-suggestion-img {
+  background-size: 100%;
+  background: linear-gradient(to right, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0)),
+    url(../../img/song-suggestion.jpeg);
+}
+
+.comprehension-img {
+  background-size: cover;
+  background: linear-gradient(to right, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0)),
+    url(../../img/comprehension.jpeg);
+}
+
+.analysis-img {
+  background-size: contain;
+  background: linear-gradient(to right, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0)),
+    url(../../img/analysis.jpeg);
+}
+
+.intepretation-img {
+  background-size: cover;
+  background: linear-gradient(to right, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0)),
+    url(../../img/interpretation.jpeg);
+}
+
+.travelling-img {
+  background-size: 4rem;
+  background: linear-gradient(to right, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0)),
+    url(../../img/travelling.webp);
+}
+
+.story-writing-img {
+  /* background-image: url(../../img/writing-lyrics.jpeg); */
+  background: linear-gradient(to right, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0)),
+    url(../../img/story-writing.jpeg);
+}
+
+.character-dev-img {
+  /* background-image: url(../../img/writing-lyrics.jpeg); */
+  background-size: 100%;
+  background: linear-gradient(to right, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0)),
+    url(../../img/character-dev.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.book-img {
+  aspect-ratio: 16 / 9;
+  width: 10;
+  background: linear-gradient(to right, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0)),
+    url(../../img/book.jpeg);
+}
