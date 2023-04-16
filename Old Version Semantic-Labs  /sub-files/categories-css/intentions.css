@@ -1,0 +1,123 @@
+/* css file for only  intentions html file*/
+
+:root {
+  --focus-bg: #ec5d2a;
+  --intention-container-bg: #e5dcd8;
+}
+
+#intentions {
+  background: #F0F1F9;
+}
+
+* {
+  overflow: visible;
+}
+
+.sub-categories:nth-child(even) {
+  /* background-color: var(--focus-bg); */
+  border: 3px solid #3F458D;
+  color: white;
+}
+
+.sub-categories:nth-child(even) > a > p  {
+  color: #131316;
+  background: #F0F1F9;
+}
+
+
+/*grid layout for intention page*/
+.div3 {
+  position: fixed;
+}
+
+.div3 > div {
+  padding: 0 80px 60px 0;
+}
+
+.intention-categories-container {
+  z-index: 20;
+  margin: 100px 0px 0 110px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Square-1 Square-2"
+    "Square-3 Square-4";
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+  border: 3px solid #131316;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.intention-categories-container > div {
+  border-radius: 12px;
+  padding: 9vh 6vw;
+  margin: 15px 15px 15px 15px;
+  background-size: cover;
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.07);
+  transition: 360ms ease 50ms;
+  border: 2px solid #131316;
+}
+
+.intention-categories-container > div:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+}
+
+.intention-categories-container > div:active {
+  transform: scale(0.98);
+}
+
+.intention-categories-container > div > p {
+  font-size: 2.1rem;
+  font-weight: 700;
+  background: white;
+  border-radius: 10px;
+  padding: 10px 15px;
+  color: #131316;
+}
+
+.intention-categories-container > div {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;}
+
+
+.Square-1 {
+  grid-area: Square-1;
+  background: linear-gradient(to right, rgb(0 0 0 / 0.4), rgb(0 0 0 / 0)),
+    url(../../img/intentions-img/composition.webp);
+}
+
+.Square-2 {
+  grid-area: Square-2;
+  background: url(../../img/intentions-img/classification.jpeg),
+    linear-gradient(to right, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0));
+}
+
+.Square-3 {
+  grid-area: Square-3;
+  background: url(../../img/intentions-img/translation.webp),
+    linear-gradient(to right, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0));
+}
+
+.Square-4 {
+  grid-area: Square-4;
+  background: url(../../img/intentions-img/summary.jpeg),
+    linear-gradient(to right, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0));
+}
+
+/* media query for responsive grid */
+
+@media (max-width: 820px) {
+  .intention-categories-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "Square-1"
+      "Square-2"
+      "Square-3"
+      "Square-4";
+  }
+}
