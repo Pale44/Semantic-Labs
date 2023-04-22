@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Labs Templates</title>
+    <meta name="title" content="SemanticLabs">
+    <meta name="description" content="Create, improve and customize your
+        prompts with Semantic Labs">
+    <meta name="keywords" content="Artificial intelligents, prompts,
+        chatgpt">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Hakan Sermet, Asher Arell">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Semantic Labs">
+    <meta property="og:description"
+        content="Customize and Create your own prompts to get the best results from your AI chat-bot. Get instant satisfiyng results!">
+    <meta property="og:image" content="">
+    <link rel="icon" href="assets/logo/bar-logo.png">
+    <link rel="stylesheet" href="../templates.css">
+    <link rel="stylesheet" href="template-files.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="../templates.html"><img class="nav-logo" src="../../assets/logo/semantic-labs-logo2.jpeg"
+                        alt="Semantic Labs Logo"></a>
+                <div class="header-file-order">
+                    <img src="../../assets/logo/facebook.png" alt="Facebook logo">
+                    <p>Facebook-Ads</p>
+                </div>
+            </li>
+            <svg onclick="window.location.href='../templates.html'" class="close-window-cross" width="36px"
+                height="36px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                    <path d="M16 8L8 16M8.00001 8L16 16" stroke="#131927" stroke-width="1.512" stroke-linecap="round"
+                        stroke-linejoin="round"></path>
+                </g>
+            </svg>
+        </ul>
+    </nav>
+
+    <div class="template-defining-parameters-container">
+        <div class="def-1">
+            <div class="title-container">
+                <div class="input-header">
+                    <p>Name of the document <span class="astrips">*</span></p>
+                </div>
+                <input class="normal-input-type" type="text" placeholder="Untitled Document">
+            </div>
+            <div class="name-product-container">
+                <div class="input-header">
+                    <p>Name of the product/service <span class="astrips">*</span></p>
+                </div>
+                <input class="normal-input-type" type="text" placeholder="Semantic Labs">
+            </div>
+            <div class="product-value-description-container">
+                <div class="input-header">
+                    <p>Description of the product/service <span class="astrips">*</span></p>
+                </div>
+                <textarea class="description-textarea"
+                    placeholder="With Writesonic, you can create powerful landing pages, product descriptions, ads, and blog posts in seconds."
+                    rows="5"></textarea>
+            </div>
+            <div class="reason-container">
+                <div class="input-header">
+                    <p>Reason <span class="astrips">*</span></p>
+                </div>
+                <input class="normal-input-type" type="text" placeholder="Christmas, Black Friday">
+            </div>
+            <div class="reason-container">
+                <div class="input-header">
+                    <p>Target audience</p>
+                </div>
+                <input class="normal-input-type" type="text" placeholder="Children, Adults">
+            </div>
+            <div class="support-container">
+                <div class="input-header">
+                    <p>Support</p>
+                </div>
+                <input class="normal-input-type" type="text" placeholder="15% off for sales">
+            </div>
+            <div class="language-container">
+                <div class="input-header">
+                    <p>Language</p>
+                </div>
+                <!-- select language -->
+
+                <input class="language-input" value="English" list="browsers" id="browser">
+                <datalist id="browsers">
+                    <option value="German">
+                    <option value="French">
+                    <option value="Spanish">
+                    <option value="Italian">
+                </datalist>
+            </div>
+            <div class="include-emojis-container">
+                <div class="emoji-btn">
+                    <p>Use Emojis for every answer</p>
+                    <div class="button r" id="button-1">
+                        <input type="checkbox" class="checkbox" />
+                        <div class="knobs"></div>
+                        <div class="layer"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="send-prompt-container">
+                <button class="send-prompt-btn">Create response</button>
+                <button class="hvr-bubble-bottom"></button>
+            </div>
+        </div>
+
+        <div class="def-2">
+            <div class="warning-text-container">
+                <p>Every time you click the Generate button, we'll create unique and personalized Facebook-Ad copy
+                    for you. Start creating some prompts!</p>
+            </div>
+            <div class="waiting-prompt-container">
+                <img src="../../assets/img/waiting-prompt.jpeg" alt="People working with AI">
+                <p>Your artificial intelligence-generated <br> copies will appear here.</p>
+            </div>
+
+            <!-- container where prompt responses from chat gpt are gonna pop up -->
+            <div class="all-prompt-responses-container">
+
+                <div class="entire-prompt-container">
+                    <div class="single-response">
+                        <p id="first-response" class="single-response-p">
+                            Upgrade your drinking experience with Powerup! 🍓🍋🍉
+                            <br><br>
+                            Get the taste of strawberry, lemon, or any other flavor you desire, simply by smelling your
+                            water
+                            while you drink it! 💦
+                            <br><br>
+                            Say goodbye to boring, plain water and hello to a burst of flavor with Powerup. And right
+                            now,
+                            when
+                            you buy one, you can get a second product at 15% off! 🎉
+                            <br><br>
+                            Don't settle for tasteless water any longer. Try Powerup today and elevate your hydration
+                            game!
+                            💪
+                            <br><br>
+                            Upgrade your drinking experience with Powerup! 🍓🍋🍉
+                            <br><br>
+                            Get the taste of strawberry, lemon, or any other flavor you desire, simply by smelling your
+                            water
+                            while you drink it! 💦
+                            <br><br>
+                            Say goodbye to boring, plain water and hello to a burst of flavor with Powerup. And right
+                            now,
+                            when
+                            you buy one, you can get a second product at 15% off! 🎉
+                            <br><br>
+                            Don't settle for tasteless water any longer. Try Powerup today and elevate your hydration
+                            game!
+                            💪
+                        </p>
+                    </div>
+                    <div class="sub-response-container">
+                        <div class="count-words-container">
+                            <p id="first-count-words"></p>
+                        </div>
+                        <div class="all-icons">
+                            <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <g id="Communication / Share_Android">
+                                        <path id="Vector"
+                                            d="M9 13.5L15 16.5M15 7.5L9 10.5M18 21C16.3431 21 15 19.6569 15 18C15 16.3431 16.3431 15 18 15C19.6569 15 21 16.3431 21 18C21 19.6569 19.6569 21 18 21ZM6 15C4.34315 15 3 13.6569 3 12C3 10.3431 4.34315 9 6 9C7.65685 9 9 10.3431 9 12C9 13.6569 7.65685 15 6 15ZM18 9C16.3431 9 15 7.65685 15 6C15 4.34315 16.3431 3 18 3C19.6569 3 21 4.34315 21 6C21 7.65685 19.6569 9 18 9Z"
+                                            stroke="#9DA3AE" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                            <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path d="M10 12V17" stroke="#9DA3AE" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M14 12V17" stroke="#9DA3AE" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M4 7H20" stroke="#9DA3AE" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M6 10V18C6 19.6569 7.34315 21 9 21H15C16.6569 21 18 19.6569 18 18V10"
+                                        stroke="#9DA3AE" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M9 5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5V7H9V5Z"
+                                        stroke="#9DA3AE" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </g>
+                            </svg>
+                            <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" stroke="#9DA3AE" stroke-width="0.312">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M21.1213 2.70705C19.9497 1.53548 18.0503 1.53547 16.8787 2.70705L15.1989 4.38685L7.29289 12.2928C7.16473 12.421 7.07382 12.5816 7.02986 12.7574L6.02986 16.7574C5.94466 17.0982 6.04451 17.4587 6.29289 17.707C6.54127 17.9554 6.90176 18.0553 7.24254 17.9701L11.2425 16.9701C11.4184 16.9261 11.5789 16.8352 11.7071 16.707L19.5556 8.85857L21.2929 7.12126C22.4645 5.94969 22.4645 4.05019 21.2929 2.87862L21.1213 2.70705ZM18.2929 4.12126C18.6834 3.73074 19.3166 3.73074 19.7071 4.12126L19.8787 4.29283C20.2692 4.68336 20.2692 5.31653 19.8787 5.70705L18.8622 6.72357L17.3068 5.10738L18.2929 4.12126ZM15.8923 6.52185L17.4477 8.13804L10.4888 15.097L8.37437 15.6256L8.90296 13.5112L15.8923 6.52185ZM4 7.99994C4 7.44766 4.44772 6.99994 5 6.99994H10C10.5523 6.99994 11 6.55223 11 5.99994C11 5.44766 10.5523 4.99994 10 4.99994H5C3.34315 4.99994 2 6.34309 2 7.99994V18.9999C2 20.6568 3.34315 21.9999 5 21.9999H16C17.6569 21.9999 19 20.6568 19 18.9999V13.9999C19 13.4477 18.5523 12.9999 18 12.9999C17.4477 12.9999 17 13.4477 17 13.9999V18.9999C17 19.5522 16.5523 19.9999 16 19.9999H5C4.44772 19.9999 4 19.5522 4 18.9999V7.99994Z"
+                                        fill="#9DA3AE"></path>
+                                </g>
+                            </svg>
+                            <svg id="first-copy" width="19px" height="19px" viewBox="0 0 24.00 24.00" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M3 16V4C3 2.89543 3.89543 2 5 2H15M9 22H18C19.1046 22 20 21.1046 20 20V8C20 6.89543 19.1046 6 18 6H9C7.89543 6 7 6.89543 7 8V20C7 21.1046 7.89543 22 9 22Z"
+                                        stroke="#9DA3AE" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="entire-prompt-container">
+                    <div class="single-response">
+                        <p id="second-response" class="single-response-p">Upgrade your drinking experience with Powerup! 🍓🍋🍉
+                            <br><br>
+                            Get the taste of strawberry, lemon, or any other flavor you desire, simply by smelling your
+                            water
+                            while you drink it! 💦
+                            <br><br>
+                            Say goodbye to boring, plain water and hello to a burst of flavor with Powerup. And right
+                            now,
+                            when
+                            you buy one, you can get a second product at 15% off! 🎉
+                            <br><br>
+                            Don't settle for tasteless water any longer. Try Powerup today and elevate your hydration
+                            game!
+                            💪
+                        </p>
+                    </div>
+                    <div class="sub-response-container">
+                        <div class="all-icons">
+                            <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <g id="Communication / Share_Android">
+                                        <path id="Vector"
+                                            d="M9 13.5L15 16.5M15 7.5L9 10.5M18 21C16.3431 21 15 19.6569 15 18C15 16.3431 16.3431 15 18 15C19.6569 15 21 16.3431 21 18C21 19.6569 19.6569 21 18 21ZM6 15C4.34315 15 3 13.6569 3 12C3 10.3431 4.34315 9 6 9C7.65685 9 9 10.3431 9 12C9 13.6569 7.65685 15 6 15ZM18 9C16.3431 9 15 7.65685 15 6C15 4.34315 16.3431 3 18 3C19.6569 3 21 4.34315 21 6C21 7.65685 19.6569 9 18 9Z"
+                                            stroke="#9DA3AE" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                            <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path d="M10 12V17" stroke="#9DA3AE" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M14 12V17" stroke="#9DA3AE" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M4 7H20" stroke="#9DA3AE" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M6 10V18C6 19.6569 7.34315 21 9 21H15C16.6569 21 18 19.6569 18 18V10"
+                                        stroke="#9DA3AE" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M9 5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5V7H9V5Z"
+                                        stroke="#9DA3AE" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </g>
+                            </svg>
+                            <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" stroke="#9DA3AE" stroke-width="0.312">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M21.1213 2.70705C19.9497 1.53548 18.0503 1.53547 16.8787 2.70705L15.1989 4.38685L7.29289 12.2928C7.16473 12.421 7.07382 12.5816 7.02986 12.7574L6.02986 16.7574C5.94466 17.0982 6.04451 17.4587 6.29289 17.707C6.54127 17.9554 6.90176 18.0553 7.24254 17.9701L11.2425 16.9701C11.4184 16.9261 11.5789 16.8352 11.7071 16.707L19.5556 8.85857L21.2929 7.12126C22.4645 5.94969 22.4645 4.05019 21.2929 2.87862L21.1213 2.70705ZM18.2929 4.12126C18.6834 3.73074 19.3166 3.73074 19.7071 4.12126L19.8787 4.29283C20.2692 4.68336 20.2692 5.31653 19.8787 5.70705L18.8622 6.72357L17.3068 5.10738L18.2929 4.12126ZM15.8923 6.52185L17.4477 8.13804L10.4888 15.097L8.37437 15.6256L8.90296 13.5112L15.8923 6.52185ZM4 7.99994C4 7.44766 4.44772 6.99994 5 6.99994H10C10.5523 6.99994 11 6.55223 11 5.99994C11 5.44766 10.5523 4.99994 10 4.99994H5C3.34315 4.99994 2 6.34309 2 7.99994V18.9999C2 20.6568 3.34315 21.9999 5 21.9999H16C17.6569 21.9999 19 20.6568 19 18.9999V13.9999C19 13.4477 18.5523 12.9999 18 12.9999C17.4477 12.9999 17 13.4477 17 13.9999V18.9999C17 19.5522 16.5523 19.9999 16 19.9999H5C4.44772 19.9999 4 19.5522 4 18.9999V7.99994Z"
+                                        fill="#9DA3AE"></path>
+                                </g>
+                            </svg>
+                            <svg id="second-copy" width="19px" height="19px" viewBox="0 0 24.00 24.00" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M3 16V4C3 2.89543 3.89543 2 5 2H15M9 22H18C19.1046 22 20 21.1046 20 20V8C20 6.89543 19.1046 6 18 6H9C7.89543 6 7 6.89543 7 8V20C7 21.1046 7.89543 22 9 22Z"
+                                        stroke="#9DA3AE" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="entire-prompt-container">
+                    <div class="single-response">
+                        <p id="third-response" class="single-response-p">Upgrade your drinking experience with Powerup! 🍓🍋🍉
+                            <br><br>
+                            Get the taste of strawberry, lemon, or any other flavor you desire, simply by smelling your
+                            water
+                            while you drink it! 💦
+                            <br><br>
+                            Say goodbye to boring, plain water and hello to a burst of flavor with Powerup. And right
+                            now,
+                            when
+                            you buy one, you can get a second product at 15% off! 🎉
+                            <br><br>
+                            Don't settle for tasteless water any longer. Try Powerup today and elevate your hydration
+                            game!
+                            💪
+                        </p>
+                    </div>
+                    <div class="sub-response-container">
+                        <div class="all-icons">
+                            <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <g id="Communication / Share_Android">
+                                        <path id="Vector"
+                                            d="M9 13.5L15 16.5M15 7.5L9 10.5M18 21C16.3431 21 15 19.6569 15 18C15 16.3431 16.3431 15 18 15C19.6569 15 21 16.3431 21 18C21 19.6569 19.6569 21 18 21ZM6 15C4.34315 15 3 13.6569 3 12C3 10.3431 4.34315 9 6 9C7.65685 9 9 10.3431 9 12C9 13.6569 7.65685 15 6 15ZM18 9C16.3431 9 15 7.65685 15 6C15 4.34315 16.3431 3 18 3C19.6569 3 21 4.34315 21 6C21 7.65685 19.6569 9 18 9Z"
+                                            stroke="#9DA3AE" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                            <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path d="M10 12V17" stroke="#9DA3AE" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M14 12V17" stroke="#9DA3AE" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M4 7H20" stroke="#9DA3AE" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M6 10V18C6 19.6569 7.34315 21 9 21H15C16.6569 21 18 19.6569 18 18V10"
+                                        stroke="#9DA3AE" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                    <path d="M9 5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5V7H9V5Z"
+                                        stroke="#9DA3AE" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round"></path>
+                                </g>
+                            </svg>
+                            <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" stroke="#9DA3AE" stroke-width="0.312">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M21.1213 2.70705C19.9497 1.53548 18.0503 1.53547 16.8787 2.70705L15.1989 4.38685L7.29289 12.2928C7.16473 12.421 7.07382 12.5816 7.02986 12.7574L6.02986 16.7574C5.94466 17.0982 6.04451 17.4587 6.29289 17.707C6.54127 17.9554 6.90176 18.0553 7.24254 17.9701L11.2425 16.9701C11.4184 16.9261 11.5789 16.8352 11.7071 16.707L19.5556 8.85857L21.2929 7.12126C22.4645 5.94969 22.4645 4.05019 21.2929 2.87862L21.1213 2.70705ZM18.2929 4.12126C18.6834 3.73074 19.3166 3.73074 19.7071 4.12126L19.8787 4.29283C20.2692 4.68336 20.2692 5.31653 19.8787 5.70705L18.8622 6.72357L17.3068 5.10738L18.2929 4.12126ZM15.8923 6.52185L17.4477 8.13804L10.4888 15.097L8.37437 15.6256L8.90296 13.5112L15.8923 6.52185ZM4 7.99994C4 7.44766 4.44772 6.99994 5 6.99994H10C10.5523 6.99994 11 6.55223 11 5.99994C11 5.44766 10.5523 4.99994 10 4.99994H5C3.34315 4.99994 2 6.34309 2 7.99994V18.9999C2 20.6568 3.34315 21.9999 5 21.9999H16C17.6569 21.9999 19 20.6568 19 18.9999V13.9999C19 13.4477 18.5523 12.9999 18 12.9999C17.4477 12.9999 17 13.4477 17 13.9999V18.9999C17 19.5522 16.5523 19.9999 16 19.9999H5C4.44772 19.9999 4 19.5522 4 18.9999V7.99994Z"
+                                        fill="#9DA3AE"></path>
+                                </g>
+                            </svg>
+                            <svg id="third-copy" width="19px" height="19px" viewBox="0 0 24.00 24.00" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path
+                                        d="M3 16V4C3 2.89543 3.89543 2 5 2H15M9 22H18C19.1046 22 20 21.1046 20 20V8C20 6.89543 19.1046 6 18 6H9C7.89543 6 7 6.89543 7 8V20C7 21.1046 7.89543 22 9 22Z"
+                                        stroke="#9DA3AE" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="../../main.js"></script>
+</body>
+
+</html>
